@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "package-extension",
+			"problemMatcher": [],
+			"label": "npm: package-extension",
+			"detail": "tfx extension create --manifests azure-devops-extension.json"
+		},
+		{
+			"type": "npm",
+			"script": "publish-extension",
+			"problemMatcher": [],
+			"label": "npm: publish-extension",
+			"detail": "tfx extension publish --manifests azure-devops-extension.json"
+		}
+	]
+}

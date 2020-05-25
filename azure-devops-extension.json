@@ -1,0 +1,27 @@
+{
+    "manifestVersion": 1,
+    "id": "ado-terraform-plan-viewer",
+    "publisher": "KenSykora",
+    "version": "1.0.0",
+    "name": "Terraform Plan Viewer",
+    "description": "Azure DevOps Extension",
+    "categories": [
+        "Azure Repos",
+        "Azure Pipelines"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}
